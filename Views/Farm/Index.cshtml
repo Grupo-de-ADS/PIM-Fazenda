@@ -1,0 +1,49 @@
+﻿@model IEnumerable<FarmModels>
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+        <h1>Fazenda</h1>
+        <a class="btn btn-success mx-2" asp-action="Create"><i class="bi bi-file-earmark-plus mx-2"></i>Cadastrar nova Fazenda</a>
+    </div>
+
+    @if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-light" role="alert">
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    <table id="Farm" class="table table-light table-hover mt-5">
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">UF</th>
+                <th scope="col">Cidade</th>
+                <th scope="col">Distrito</th>
+                <th scope="col">Endereço</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @if (Model != null)
+            {
+                @foreach (var farm in Model)
+                {
+                    <tr>
+                        <td>@farm.farm_name</td>
+                        <td>@farm.farm_uf</td>
+                        <td>@farm.farm_city</td>
+                        <td>@farm.farm_distric</td>
+                        <td>@farm.farm_address</td>
+                        <td>
+                            <a class="btn btn-warning mx-2" asp-controller="Farm" asp-action="Edit" asp-route-id="@farm.farm_id"><i class="bi bi-pencil-square mx-2"></i>Editar</a>
+                            <a class="btn btn-danger mx-2" asp-controller="Farm" asp-action="Delete" asp-route-id="@farm.farm_id"><i class="bi bi-trash mx-2"></i>Excluir</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+</div>

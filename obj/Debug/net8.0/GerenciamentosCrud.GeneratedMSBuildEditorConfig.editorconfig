@@ -1,0 +1,123 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GerenciamentosCrud
+build_property.RootNamespace = GerenciamentosCrud
+build_property.ProjectDir = C:\Users\Joao Victor\OneDrive - Zebra Câmbio\Desktop\GerenciamentosCrud\GerenciamentosCrud\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Joao Victor\OneDrive - Zebra Câmbio\Desktop\GerenciamentosCrud\GerenciamentosCrud
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Farm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Farm/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Farm/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Farm/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Produtos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Produtos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Produtos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Shipping/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Shipping/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Shipping/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Shipping/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Transport/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Transport/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Transport/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Transport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao Victor/OneDrive - Zebra Câmbio/Desktop/GerenciamentosCrud/GerenciamentosCrud/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4envxahhko

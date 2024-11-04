@@ -1,0 +1,52 @@
+﻿@model CustomerModels
+@{
+    ViewData["title"] = "Cadastrar Cliente";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center">
+        <h1 class="text-light">Cadastro de Cliente</h1>
+    </div>
+
+    <form method="post" asp-controller="Customer" asp-action="Create">
+
+
+        <div class="mb-3">
+            <label for="customer_name" class="form-label text-light">Nome:</label>
+            <input type="text" class="form-control text-light" asp-for="customer_name" id="customer_name" placeholder="Ex:Nome">
+            <span asp-validation-for="customer_name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="customer_address" class="form-label text-light">Endereço:</label>
+            <input type="text" class="form-control text-light" asp-for="customer_address" id="customer_address" placeholder="Ex:Rua/Bairro/Número">
+            <span class="text-danger" asp-validation-for="customer_address"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="customer_phone_number" class="form-label text-light">Telefone:</label>
+            <input type="text" class="form-control text-light" asp-for="customer_phone_number" id="customer_phone_number" placeholder="Ex:(19)000000000">
+            <span class="text-danger" asp-validation-for="customer_phone_number"></span>
+        </div>
+
+        <div class="mb-3">
+            <input type="checkbox" asp-for="customer_is_juridic" class="form-check-input text-light" />
+            <label asp-for="customer_is_juridic" class="form-check-label text-light">Cliente Juridico:</label>
+            <span class="text-danger" asp-validation-for="customer_is_juridic"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="customer_document" class="form-label text-light">Destrito:</label>
+            <input type="text" class="form-control text-light" asp-for="customer_document" id="customer_document" placeholder="Ex:000.000.000-00">
+            <span class="text-danger" asp-validation-for="customer_document"></span>
+        </div>
+
+
+        <div class="d-flex gap-5 nt-5">
+            <button type="submit" class="btn btn-success w-50">Adicionar</button>
+            <a class="btn btn-primary w-50" asp-action="Index">Voltar</a>
+        </div>
+    </form>
+
+</div>

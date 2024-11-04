@@ -1,0 +1,53 @@
+﻿@model ProdutosModels
+@{
+    ViewData["title"] = "Excluir Produto";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center">
+        <h1 class="text-light">Exclusão de Produtos</h1>
+    </div>
+
+    <form method="post" asp-controller="Produtos" asp-action="Delete">
+        <input type="hidden" asp-for=Id />
+        <h2 class="text-light">Tem certeza que deseja Excluir esse Produto?</h2>
+
+        <div class="mb-3">
+            <label for="Product_ean_code" class="form-label text-light">Código Ean:</label>
+            <input type="text" class="form-control text-light" asp-for="Product_ean_code" id="Código Ean" placeholder="Ex:7898357417892" disabled>
+            <span asp-validation-for="Product_ean_code"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Product_name" class="form-label text-light">Nome do Produto:</label>
+            <input type="text" class="form-control text-light" asp-for="Product_name" id="Nome do produto" placeholder="Ex:Arroz" disabled>
+            <span class="text-danger" asp-validation-for="Product_name"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Product_quantity" class="form-label text-light">Quantidade de Itens:</label>
+            <input type="text" class="form-control text-light" asp-for="Product_quantity" id="Quantidade" placeholder="Ex:10" disabled>
+            <span class="text-danger" asp-validation-for="Product_quantity"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Product_fabrication_date" class="form-label text-light">Data de Fabricação:</label>
+            <input type="text" class="form-control text-light" asp-for="Product_fabrication_date" id="Data de Fabricação" placeholder="Ex:2024/02/28" disabled>
+            <span class="text-danger" asp-validation-for="Product_fabrication_date"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="Product_expiry_date" class="form-label text-light">Data de Validade:</label>
+            <input type="text" class="form-control text-light" asp-for="Product_expiry_date" id="Data de Validade" placeholder="Ex:2025/02/28" disabled>
+            <span class="text-danger" asp-validation-for="Product_expiry_date"></span>
+        </div>
+
+        <div class="d-flex gap-5 nt-5">
+            <button type="submit" class="btn btn-danger w-50">Excluir</button>
+            <a class="btn btn-primary w-50" asp-action="Index">Voltar</a>
+        </div>
+    </form>
+
+</div>
+
